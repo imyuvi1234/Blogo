@@ -5,7 +5,7 @@ import AppContext from "../Context/AppContext";
 // import Sidebar from "./sidebar";
 import "../styles/mainwall.css";
 
-function MainWall() {
+function BlogView() {
   const Blogs = useContext(AppContext);
   const { bposts } = Blogs;
 
@@ -70,4 +70,4 @@ function MainWall() {
   );
 }
 
-export default MainWall;
+export default BlogView;

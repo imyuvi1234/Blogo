@@ -8,7 +8,13 @@ import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import { Container, Paper } from "@mui/material";
-import { Login, Signup } from './pages';
+import { Login, Signup } from '../Components/allComponents';
+
+
+
+
+
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 

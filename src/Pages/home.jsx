@@ -1,13 +1,14 @@
 import { Box } from "@mui/material";
 import React from "react";
-import MainWall from "./mainWall";
-import Sidebar from "./sidebar";
+import {BlogView, Sidebar } from "../Components/allComponents";
+  
+
 
 function Home() {
   return (
     <Box sx={{ width: "95vw", margin: "auto" }} display="flex">
       <Box sx={{ width: "65vw" }}>
-        <MainWall />
+        <BlogView />
       </Box>
       <Box sx={{ width: "35vw", ml: 5 }}>
         <Sidebar />

@@ -1,14 +1,14 @@
-import { Home, LoginSignup } from '../Components/pages';
+import { Home, LoginSignup } from "../Pages/allPages";
 
 const Navigationroute = [
-    {
-        path : "/" ,
-        element: <Home/>
-    },
-    {
-        path : "/signin" ,
-        element: <LoginSignup/>
-    }
-]
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/signin",
+    element: <LoginSignup />,
+  },
+];
 
 export default Navigationroute;
