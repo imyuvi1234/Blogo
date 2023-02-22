@@ -3,23 +3,25 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--color-five);
   font-family: 'Nunito', sans-serif;
+  /* background-image: linear-gradient(90deg,#EBEBEB 0%, #FFFFFF 20%, #FFFFFF 60%, #EBEBEB 100%);
+  background-size: auto; */
 
+  /* background-color: #8EC5FC;
+  background-image: linear-gradient(90deg, #8EC5FC 0%, #E0C3FC 100%);
+  background-size: auto; */
 
-  background-color: #8EC5FC;
-  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-  background-size: auto;
-  /* height: 97.2vh; */
+  background-image: linear-gradient(90deg, #ccf2e9, #b8f6e2, #a7f9d7, #9bfbc9, #93fdb6);
 
-}
+   }
 
-
+/* #99c299 */
 
 :root {
-  --color-one : #17252A;
-  --color-two : #2b717b;
-  --color-three : #3AAFA9;
-  --color-four : #DEF2F1;
-  --color-five : #FEFFFF;
+  --color-one : #00ADB5;
+  --color-two : #2A2A2A;
+  --color-three : #EBEBEB;
+  --color-four :#FFFFFF;
+  --color-five : #061c3d;
+
 }
