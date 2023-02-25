@@ -1,0 +1,13 @@
+.navbarstyle {
+  text-decoration: none;
+  color: var(--color-two);
+  padding: 10px;
+}
+
+.navbarstyle:hover {
+  outline: 1px;
+  outline-color: var(--color-five);
+  outline-style: solid;
+  border-radius: 5px;
+  height: 18px;
+}

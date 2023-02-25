@@ -11,17 +11,15 @@ body {
   background-image: linear-gradient(90deg, #8EC5FC 0%, #E0C3FC 100%);
   background-size: auto; */
 
-  background-image: linear-gradient(90deg, #ccf2e9, #b8f6e2, #a7f9d7, #9bfbc9, #93fdb6);
-
-   }
+  background-color: var(--color-four);
+}
 
 /* #99c299 */
 
 :root {
-  --color-one : #00ADB5;
-  --color-two : #2A2A2A;
-  --color-three : #EBEBEB;
-  --color-four :#FFFFFF;
-  --color-five : #061c3d;
-
+  --color-one: #004338;
+  --color-two: #241e3a;
+  --color-three: #006756;
+  --color-four: #ffffff;
+  --color-five: #008c74;
 }
