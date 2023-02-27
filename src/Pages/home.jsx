@@ -9,10 +9,10 @@ function Home() {
         <TypedText />
       </Container>
       <Box sx={{ width: '95vw', margin: 'auto' }} display="flex">
-        <Box sx={{ width: '65vw' }}>
+        <Box sx={{ width: '75vw' }}>
           <BlogView />
         </Box>
-        <Box sx={{ width: '35vw', ml: 5 }}>
+        <Box sx={{ width: '25vw', ml: 5 }}>
           <Sidebar />
         </Box>
       </Box>
