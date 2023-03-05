@@ -3,11 +3,12 @@ import { Box, Stack, Typography } from '@mui/material';
 import AppContext from '../Context/AppContext';
 import { Avatar1 } from '../Styles/images';
 import { NavLink } from 'react-router-dom';
+import Blogoptions from './blogoptions';
 
 function BlogView() {
   const Blogs = useContext(AppContext);
   const { bposts } = Blogs;
-  const FirstObj = bposts[0];
+  const FirstObj = bposts.shift();
 
   return (
     <React.Fragment>
@@ -53,6 +54,7 @@ function BlogView() {
           </Stack>
         </Stack>
       </Box>
+      <Blogoptions />
     </React.Fragment>
   );
 }
