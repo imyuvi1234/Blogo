@@ -24,9 +24,7 @@ const BlogPosts = (props) => {
       creationdate: '12/02/23',
       topic: 'Where does it come from?',
       hashtopic: '#technology, #music',
-      image:
-        'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
-
+      image: '',
       author: 'Author 2',
       shortContent:
         'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.',
@@ -39,9 +37,7 @@ const BlogPosts = (props) => {
       creationdate: '12/02/23',
       topic: 'Why do we use it?',
       hashtopic: '#food, #lifestyle',
-      image:
-        'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
-
+      image: '',
       author: 'Author 1',
       shortContent:
         "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
@@ -70,9 +66,7 @@ const BlogPosts = (props) => {
       topic: 'The standard Lorem Ipsum passage',
       author: 'Author 1',
       hashtopic: '#movies, #music',
-      image:
-        'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
-
+      image: '',
       shortContent:
         "Used since the 1500s 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       content:

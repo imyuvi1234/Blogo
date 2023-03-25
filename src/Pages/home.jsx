@@ -1,4 +1,4 @@
-import { Box, Container } from '@mui/material';
+import { Box, Container, Grid } from '@mui/material';
 import React from 'react';
 import { BlogView, Sidebar, TypedText } from '../Components/allComponents';
 
@@ -9,12 +9,12 @@ function Home() {
         <TypedText />
       </Container>
       <Box sx={{ width: '95vw', margin: 'auto' }} display="flex">
-        <Box sx={{ width: '75vw' }}>
+        <Grid sx={{ width: '75vw' }} item xs={12}>
           <BlogView />
-        </Box>
-        <Box sx={{ width: '25vw', ml: 5 }}>
+        </Grid>
+        <Grid sx={{ width: '25vw', ml: 5 }} item xs={0}>
           <Sidebar />
-        </Box>
+        </Grid>
       </Box>
     </React.Fragment>
   );
