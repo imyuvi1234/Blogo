@@ -1,13 +1,12 @@
 import {
   Box,
   Paper,
-  ToggleButton,
-  ToggleButtonGroup,
   Divider,
   Stack,
   Typography,
+  Button,
 } from '@mui/material';
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import AppContext from '../Context/AppContext';
 
 function Sidebar() {
@@ -17,12 +16,7 @@ function Sidebar() {
   const shuffle = (arr) => [...arr].sort(() => Math.random() - 0.5);
   const newList = shuffle(bposts);
 
-  const [formats, setFormats] = useState([]);
-
-  const handleFormat = (e, formats) => {
-    setFormats(formats);
-    console.log(formats);
-  };
+ 
 
   return (
     <React.Fragment>
@@ -48,38 +42,16 @@ function Sidebar() {
               Trending topics this week
             </Typography>
           </Box>
-
-          <ToggleButtonGroup
-            value={formats}
-            onChange={handleFormat}
-            aria-label="Interest Options"
-            size="small"
-            sx={{ flexWrap: 'wrap' }}
-          >
+            <Stack spacing={1}>
             {interestfields.map((item) => {
-              return (
-                <ToggleButton
-                  key={item.interestId}
-                  value={item.topic}
-                  aria-label={item.topic}
-                  sx={{
-                    padding: '4px',
-                    width: 'auto',
-                    flex: 'none',
-                    '&.MuiToggleButtonGroup-grouped': {
-                      mx: 2,
-                      my: 1,
-                      border: '1px solid #008c74 !important',
-                      borderRadius: '3px 7px !important',
-                      color: 'var( --color-one )',
-                    },
-                  }}
-                >
-                  {item.topic}
-                </ToggleButton>
-              );
-            })}
-          </ToggleButtonGroup>
+            return (
+              <Button variant="outlined" size="small" key={item.interestId}>
+                {item.topic}
+              </Button>
+            );
+          })}
+            </Stack>
+          
 
           <Divider sx={{ marginTop: '15px' }} />
 

@@ -1,8 +1,8 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { Box, Paper, Stack, Typography } from '@mui/material';
 import Logo from '../Assests/Images/logo.png';
-import SearchIcon from '@mui/icons-material/Search';
+
 import '../Styles/navbar.css';
 
 const Navbar = () => {
@@ -49,15 +49,12 @@ const Navbar = () => {
             <NavLink className="navbarstyle" to="/">
               Home
             </NavLink>
-            <NavLink className="navbarstyle" to="/">
+            <NavLink className="navbarstyle" to="/aboutUs">
               About Us
             </NavLink>
-            <NavLink className="navbarstyle" to="/signin">
-              Topics
-            </NavLink>
-            <NavLink className="navbarstyle" to="/">
+            <Link className="navbarstyle" to={'//github.com/imyuvi1234/Blogo'}>
               Look in my Code
-            </NavLink>
+            </Link>
           </Stack>
           <Stack
             spacing={3}
@@ -69,7 +66,7 @@ const Navbar = () => {
               px: '10px',
             }}
           >
-            <NavLink
+            {/* <NavLink
               className="navbarstyle"
               to="/signin"
               style={{
@@ -86,7 +83,7 @@ const Navbar = () => {
                   Search
                 </Typography>
               </Stack>
-            </NavLink>
+            </NavLink> */}
             <NavLink className="navbarstyle" to="/signin">
               Sign In
             </NavLink>

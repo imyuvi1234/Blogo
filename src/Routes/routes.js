@@ -1,4 +1,4 @@
-import { Home, LoginSignup } from "../Pages/allPages";
+import { Home, LoginSignup, AboutUs } from "../Pages/allPages";
 
 const Navigationroute = [
   {
@@ -9,6 +9,10 @@ const Navigationroute = [
     path: "/signin",
     element: <LoginSignup />,
   },
+  {
+    path: "/aboutUs",
+    element: <AboutUs />,
+  }
 ];
 
 export default Navigationroute;

@@ -64,7 +64,7 @@ const BlogPosts = (props) => {
       title: 'Blog 5',
       creationdate: '12/02/23',
       topic: 'The standard Lorem Ipsum passage',
-      author: 'Author 1',
+      author: 'Author 3',
       hashtopic: '#movies, #music',
       image: '',
       shortContent:
